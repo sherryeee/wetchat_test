@@ -1,0 +1,62 @@
+/* app.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  font-size:24rpx;
+  font-family: "Microsoft Yahei",Verdana,Arial,Helvetica,sans-serif;
+  box-sizing: border-box;
+} 
+.hide{
+  display: none !important;
+}
+
+
+/*position List**/
+.pos-item{
+  padding:20rpx 30rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.pos-item .item-name{
+  max-width:60%;
+  font-size:32rpx;
+  line-height: 56rpx;
+  color:#222;
+}
+.pos-item .item-com-name,.pos-item .item-tip{
+ color:#888;
+ line-height: 44rpx;
+ height: 44rpx;
+ 
+}
+.pos-item .item-tip{
+    display: flex;
+    flex-direction: row;
+}
+.pos-item .item-loc,.pos-item .item-refresh{
+  display: inline-block;
+}
+.pos-item .item-loc::before,.pos-item .item-refresh::before{
+  display: inline-block;
+  overflow: hidden;
+  height: 34rpx;
+  width: 34rpx;
+  background-size:cover;
+  content:"";
+  vertical-align:middle;
+  margin:0 4rpx 0 0;
+
+}
+.pos-item .item-loc::before{
+  background-image: url(/images/location.png);
+}
+.pos-item .item-refresh::before{
+  background-image: url(/images/time.png);
+}
+.pos-item .item-loc::after{
+  content:"|";
+  margin:0 10rpx;
+}

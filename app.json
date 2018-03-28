@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/resume/resume",
+    "pages/apply/apply",
+    "pages/account/account",
+    "pages/position/position",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "backgroundColor": "#fbfbfb",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home_01.png",
+      "selectedIconPath": "images/home_02.png"
+    },{
+      "pagePath":"pages/resume/resume",
+      "text":"简历",
+      "iconPath":"images/resume_01.png",
+      "selectedIconPath":"images/resume_02.png"
+    },{
+      "pagePath":"pages/apply/apply",
+      "text":"应聘",
+      "iconPath":"images/apply_01.png",
+      "selectedIconPath":"images/apply_02.png"
+    },{
+      "pagePath":"pages/account/account",
+      "text":"我的",
+      "iconPath":"images/account_01.png",
+      "selectedIconPath":"images/account_02.png"
+    }]
+  }
+}

@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<import src="../template/posList.wxml"/>
+<view class="container">
+   <view class="index_logo" bindTap ="">
+      <image src="/images/logo.png" style="width:360rpx;height:100rpx;margin-top:42rpx;"></image>
+   </view>
+   <view class="search">
+      <form bindsubmit="searchPosition">
+      <view class="search-wrap">
+        <input class="search-input" placeholder="请输入职位或企业关键字" name="m.keyWord"/>
+        <view class = "search-keyWord" data-value="{{keyWType}}" bindtap="keyWTypeTap">{{keyWTypeTxt}}         </view>
+        <view class="search-kwTypeList {{keyBoxShow ? '' : ' hide'}}" >
+          <view data-value = '2' class="item" bindtap="keyWTypeItemTap">全文</view>
+          <view data-value = '0' class="item" bindtap="keyWTypeItemTap">职位</view>
+          <view data-value = '1' class="item" bindtap="keyWTypeItemTap">企业</view>
+        </view>
+      </view>
+      <button formType="submit" class="search-btn">搜索</button>
+    </form>
+     
+   </view>
+   <view class="position-title">
+       <view class="position-new">
+          最新职位
+      </view>
+   </view>
+    <view class="position-wrap">
+      <block class="classname" wx:for="{{latestData.rows}}" wx:for-item="item">
+        <template is="positionListItem" data="{{...item}}"></template>
+      </block>
+    </view>
+  
+</view>
+

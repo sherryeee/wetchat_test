@@ -1,0 +1,10 @@
+<template name="positionListItem">
+  <view class="pos-item" data-posid="{{posId}}" catchtap="intoDetail">
+    <view class="item-name"> {{posName}}</view>
+    <view class="item-com-name">{{comName}}</view>
+    <view class="item-tip">
+      <view class="item-loc">{{jobLocation}}  </view>
+      <view class="item-refresh">{{postDateDesc}}刷新</view>
+    </view>
+  </view>
+</template>

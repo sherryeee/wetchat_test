@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<import src="../template/detailList.wxml"/>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current="{{initPage}}" class="swiper" duration ="{{duration}}" bindchange="swiperChanged">
+     <block wx:for="{{posData}}" class="">
+        <swiper-item class="swiper-item">
+            <template is="detailList" data="{{...item}}"></template>
+        </swiper-item>
+     </block>
+</swiper>

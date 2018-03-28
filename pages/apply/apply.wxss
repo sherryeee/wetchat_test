@@ -1,0 +1,71 @@
+/* pages/apply/apply.wxss */
+
+.apply .wrapper{
+    margin-top: 30rpx;
+    border: 1px solid #eee;
+}
+
+.apply .a-item{
+    position: relative;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding: 20rpx;
+    font-size: 30rpx;
+}
+
+.apply .a-item .i-txt{
+    padding-bottom: 20rpx;
+    border-bottom: 1px solid #eee;
+}
+
+.apply .a-item .i-txt.i4{
+    border-bottom: none;
+}
+
+.apply .a-item .i-txt::before{
+    content: '';
+    display: inline-block;
+    width: 58rpx;
+    height: 58rpx;
+    border-radius: 50%;
+    margin: 0 10px -8px 0;
+    background: #f54444 url(../../images/icon_01.png) no-repeat;
+    background-size: 450rpx 400rpx;
+    background-position:  -4rpx -104rpx;
+}
+
+.apply .a-item .i-txt.i2::before{
+    background-position: -104rpx -104rpx;
+    background-color: #46a9fe;
+}
+.apply .a-item .i-txt.i3::before{
+    background-position: -204rpx -104rpx;
+    background-color: #7cc494;
+}
+.apply .a-item .i-txt.i4::before{
+    background-position: -304rpx -104rpx;
+    background-color: #b7aad1;
+}
+
+.apply .a-item .i-txt::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 20rpx;
+    width: 12rpx;
+    height: 12rpx;
+    border: #AAAAAA solid;
+    border-width: 4rpx 4rpx 0 0;
+    margin-top: 2rpx;
+    transform: rotate(45deg);
+}
+
+.apply .a-item .i-num{
+    position: absolute;    
+    top: 50%;
+    right: 40rpx;
+    font-size: 20rpx;
+    height: 20rpx;
+    line-height: 20rpx;
+    color: #AAA;
+}

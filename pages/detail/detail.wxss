@@ -1,0 +1,85 @@
+/* pages/detail/detail.wxss */
+page{height: 100%;}
+.swiper{width:100%;height: 100%;}
+.swiper-item{height: 100%;overflow-y: scroll;}
+
+.property_pos{position: relative;padding:20rpx 37.5rpx;}
+.property_pos .pos_name{
+    padding-right: 180rpx;
+    font-size:30rpx;
+    line-height: 56rpx;
+    font-weight: bold;
+    }
+ .property_pos .pos_salary{
+    position: absolute;
+    color: #F8881D;
+    font-size: 28rpx;
+    right: 30rpx;
+    top:30rpx;
+ }
+ .property_pos .pos_tip{
+    display: flex;
+    flex-direction: row;
+    padding: 10rpx 0;
+ }
+ .property_pos .pos_tip .pos_loc::before{
+     background-image: url(/images/location.png);
+ }
+ .property_pos .pos_tip .pos_refresh::before{
+    background-image: url(/images/time.png);
+ }
+ .property_pos .pos_tip .pos_refresh::before,.property_pos .pos_tip .pos_loc::before
+ {
+    display: inline-block;
+    overflow: hidden;
+    height: 28rpx;
+    width: 28rpx;
+    background-size:cover;
+    content:"";
+    vertical-align:middle;
+    margin:0 10rpx;
+ }
+ .com_info{
+   padding:20rpx 37.5rpx;
+ }
+  .com_info::after{
+      clear:both;
+      zoom:1;
+      height:100%;
+  }
+ .com_info .com_img{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    float: left;
+ }
+.com_info .com_tip{
+      display: inline-block;
+      margin: 0 20rpx;
+  }
+.content .item_title{
+    line-height: 30px;
+    height: 30px;
+    padding: 0 15px;
+    background: #f3f3f3;
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.content .item_body{
+     padding:20rpx 37.5rpx;
+     font-size: 26rpx;
+     color: #555;
+}
+.contactus .contactus_item{
+    line-height: 40rpx;
+}
+.contactus_item .contactus_tip{
+    float:left;
+    font-weight:bold;
+}
+.contactus_item .contactus_con{
+    margin-left:160rpx;
+}

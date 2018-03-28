@@ -1,0 +1,8 @@
+<import src="../template/posList.wxml"/>
+<view class="container">
+    <view class="positon-list">
+        <scroll-view wx:for="{{posList}}" wx:for-item="item">
+            <template is="positionListItem"  data="{{...item}}"></template>
+        </scroll-view>
+    </view>
+</view>

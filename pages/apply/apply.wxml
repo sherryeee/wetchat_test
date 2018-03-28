@@ -1,0 +1,23 @@
+<!--pages/apply/apply.wxml-->
+<!--apply.wxml-->
+<view class="container apply">
+    <view class="wrapper">
+        <view class='m-icon'></view>
+        <view class="a-item">
+            <view class="i-txt i1">邀请面试</view>
+            <view class="i-num">2</view>
+        </view>
+        <view class="a-item">
+            <view class="i-txt i2">简历被看</view>
+            <view class="i-num">10</view>
+        </view>
+        <view class="a-item">
+            <view class="i-txt i3">应聘记录</view>
+            <view class="i-num">32</view>
+        </view>
+        <view class="a-item">
+            <view class="i-txt i4">外发记录</view>
+            <view class="i-num">0</view>
+        </view>
+    </view>
+</view>

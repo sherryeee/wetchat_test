@@ -1,0 +1,43 @@
+<!--pages/account/account.wxml-->
+<!--account.wxml-->
+<view class="container account">
+    <view class="header">
+        <image class="acc-img" src="https://image.jobcn.com/PersonPhoto/avatar/wshm?_t=1475481243127"> </image>
+        <view class="acc-topic">卓小兔</view>
+        <view class="acc-txt">会员编号：7735204</view>
+        <view class="acc-txt">注册日期：2014-01-24</view>
+    </view>
+    <view class="menu">
+        <view class="m-item i1">            
+            
+            <view class="m-txt">我的消息</view>
+        </view>
+        <view class="m-item i2">            
+            
+            <view class="m-txt">搜索器</view>
+        </view>
+        <view class="m-item i3">
+            
+            <view class="m-txt">职位收藏</view>
+        </view>
+    </view>
+    <view class="acc-set">
+        <view class="s-topic">账户设置</view>
+        <view class="s-item s1">
+            <view class="s-txt">修改用户名</view>
+            <view class="s-val">jobcndemo</view>            
+        </view>
+        <view class="s-item s2">
+            <view class="s-txt">修改密码</view>
+            <view class="s-val"></view>
+        </view>
+        <view class="s-item s3">
+            <view class="s-txt">修改邮箱</view>
+            <view class="s-val">whenido@jobcn.com</view>
+        </view>
+        <view class="s-item s4">
+            <view class="s-txt">修改手机</view>
+            <view class="s-val">13832321282</view>
+        </view>
+    </view>
+</view>

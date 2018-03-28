@@ -1,0 +1,19 @@
+<!--pages/resume/resume.wxml-->
+<!--resume.wxml-->
+<view class="container resume">
+    <view class="self">
+        <view class="r-topic">我的简历</view>
+        <view class="r-list">
+            <view class="r-item r-line">卓博测试简历</view>
+            <view class="r-item">专用简历</view>
+        </view>
+        <view class="r-btn">新建/导入简历</view>
+    </view>
+    <view class="menu">
+        <view class="m-item-img"></view>
+        <view class="m-item m1">快速投递</view>
+        <view class="m-item m2">刷新简历</view>
+        <view class="m-item m3">公开设置</view>
+        <view class="m-item m4 m-line">外发简历</view>
+    </view>
+</view>

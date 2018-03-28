@@ -1,0 +1,102 @@
+/* pages/resume/resume.wxss */
+.resume{
+    background-color: #F8F8F8;
+}
+
+.resume .self{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.resume .self .r-topic{
+    padding: 20rpx 30rpx;
+    color: #888;
+    background-color: #F8F8F8;
+}
+
+.resume .self .r-list{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.resume .self .r-item{
+    position: relative;
+    padding: 30rpx;
+    font-size: 30rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+}
+
+.resume .self .r-line{
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.resume .self .r-btn{
+    height: 76rpx;
+    font-size: 28rpx;
+    line-height: 76rpx;
+    margin: 30rpx;
+    color: #ff860d;
+    background: #fff4e9;
+    border: 1px solid #ffc58b;
+    border-radius: 2rpx;
+    text-align: center;
+}
+
+.resume .menu{
+    margin-top: 30rpx;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.resume .menu .m-item{
+    position: relative;
+    padding: 20rpx 30rpx;
+    border-bottom: 1px solid #eee;
+    font-size: 28rpx;
+    
+}
+
+.resume .menu .m-line{
+    border-bottom: none;
+}
+
+.resume .self .r-item::after,.resume .menu .m-item::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 20rpx;
+    width: 12rpx;
+    height: 12rpx;
+    border: #AAAAAA solid;
+    border-width: 4rpx 4rpx 0 0;
+    margin-top: -2rpx;
+    transform: rotate(45deg);
+}
+
+.resume .m-item::before{
+    content: " ";
+    display: inline-block;
+    width: 52rpx;
+    height: 52rpx;
+    padding-right: 12rpx;
+    margin-bottom: -14rpx;
+    background: url(../../images/icon_03.png) no-repeat;
+    background-position: 0rpx 0rpx;
+    background-size: 52rpx 208rpx;
+}
+
+.resume .menu .m2::before{
+    background-position:  0rpx -52rpx;    
+}
+
+.resume .menu .m3::before{
+    background-position:  0rpx -104rpx;
+}
+
+.resume .menu .m4::before{
+    background-position:  0rpx -156rpx;
+}

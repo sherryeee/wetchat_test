@@ -1,0 +1,71 @@
+ /*index.wxss*/
+.index_logo{
+    width:100%;
+    text-align:center; 
+}
+.search{
+	position:relative;
+  padding:20rpx 40rpx 50rpx 40rpx;
+}
+.search form{
+  display:flex;
+  flex-direction:column;
+}
+.search-wrap{
+  position:relative;
+  padding:14rpx 140rpx 14rpx 20rpx;
+  border:1px solid #ddd;
+}
+.search-wrap input{
+  font-family: "Microsoft Yahei",Verdana,Arial,Helvetica,sans-serif;
+  }
+.search-keyWord{
+  position:absolute;
+  width:140rpx;
+  height:42rpx;
+  line-height: 42rpx;
+  right: 0;
+  text-align:center;
+  top: 20rpx;
+   border-left: 1px solid #c4c4c4;
+}
+.search-wrap .search-keyWord::after{
+    content: ' ';
+    position: absolute;
+    top:16rpx;
+    right: 20rpx;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: 5px solid rgba(255, 255, 255, 0);
+    border-top-color: #767676;
+}
+.search-kwTypeList{
+  position:absolute;
+  top:62rpx;
+  right:0; 
+  width:140rpx;
+  background-color: #eee;
+  text-align:center;
+  z-index:10;
+}
+.search-kwTypeList .item{
+  width:100%;
+  line-height: 56rpx;
+}
+.search-btn{
+  margin:35rpx 0;
+  background-color:#F8881D;
+  color:#fff;
+}
+.position-title{
+  background-color:#f3f3f3;
+  padding-left:40rpx;
+}
+.position-new{
+  color:#F8881D;border-bottom:2px solid #F8881D;
+  line-height:68rpx;
+  font-size:32rpx;
+  display: inline-block;
+}
+ 

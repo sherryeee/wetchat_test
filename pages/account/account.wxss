@@ -1,0 +1,133 @@
+/* pages/account/account.wxss */
+.header{
+    padding: 25rpx;
+    color: #fff;
+    background-color: #f26b01;
+}
+
+.header .acc-img{
+    float: left;
+    width: 140rpx;
+    height: 140rpx;
+    margin-right: 25rpx;
+    border-radius: 50%;
+    border: 6rpx solid #f58934
+}
+
+.header .acc-topic{
+    font-size: 35rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding-top: 20rpx;
+}
+
+.header .acc-txt{
+    font-size: 20rpx;
+    height: 35rpx;
+    line-height: 35rpx;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu .m-item{
+    position: relative;
+    width: 150rpx;
+    height: 102rpx;
+    padding: 20rpx 50rpx;
+    text-align: center;
+}
+
+.menu .m-item .m-txt::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url(../../images/icon_01.png) no-repeat 0px -120px;
+    background-size: 188px 167px;
+}
+
+.menu .m-item.i2 .m-txt::before{
+    background-position:-39px -121px;
+}
+
+.menu .m-item.i3 .m-txt::before{
+    background-position:-80px -122px;
+}
+
+.menu .m-item .m-txt{
+    color: #555;
+}
+
+.acc-set .s-topic{
+    padding-left: 30rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #888;
+    background-color: #f3f3f3;
+}
+
+.acc-set .s-item{
+    position: relative;
+    padding: 30rpx;
+    height: 52rpx;
+    line-height: 52rpx;
+    vertical-align: baseline;
+    border-bottom: 1px solid #eee;
+}
+
+.acc-set .s-item .s-txt{
+    position: relative;
+    font-size: 30rpx;
+    color: #555;
+}
+
+.acc-set .s-item .s-txt::before{
+    content: '';
+    display: inline-block;
+    width: 52rpx;
+    height: 52rpx;
+    padding-right: 12rpx;
+    margin-bottom: -12rpx; 
+    background: url(../../images/icon_02.png) no-repeat 0px 0px;
+    background-size: 52rpx 208rpx;
+}
+
+.acc-set .s-item.s2 .s-txt::before{
+    background-position: 0rpx -52rpx;
+}
+
+.acc-set .s-item.s3 .s-txt::before{
+    background-position: 0rpx -104rpx;
+}
+
+.acc-set .s-item.s4 .s-txt::before{
+    background-position: 0rpx -156rpx;
+}
+
+.acc-set .s-item .s-txt::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 15rpx;
+    width: 12rpx;
+    height: 12rpx;
+    margin-top: -6rpx;
+    border: #AAAAAA solid;
+    border-width: 4rpx 4rpx 0 0;
+    transform: rotate(45deg);
+}
+
+.acc-set .s-item .s-val{
+    position: absolute;
+    height: 52rpx;
+    line-height: 52rpx;
+    top: 50%;
+    right: 64rpx;
+    margin-top: -26rpx;
+    color: #B4B4B4;
+}
